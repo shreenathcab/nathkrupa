@@ -1,0 +1,32 @@
+.review-carousel-container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+  }
+  
+  .review-card {
+    flex: 0 0 auto;
+    width: 400px;
+    margin-right: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    scroll-snap-align: start;
+  }
+  
+  .review-text {
+    margin-bottom: 10px;
+  }
+  
+  .review-details {
+    font-style: italic;
+  }
+  
