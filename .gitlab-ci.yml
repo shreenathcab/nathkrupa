@@ -13,7 +13,7 @@ cache:
     - node_modules/
 
 before_script:
-  - npm install  # Install dependencies before running any job
+  - npm install  --force # Install dependencies before running any job
 
 build:
   stage: build
