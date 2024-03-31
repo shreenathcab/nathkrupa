@@ -1,3 +1,5 @@
-/node_modules
-/public
-/src
+# Ignore all files and folders
+*
+
+# Except the build folder
+!build/
