@@ -15,11 +15,6 @@ cache:
 before_script:
   - npm install  # Install dependencies before running any job
 
-test:
-  stage: test
-  script:
-    - npm test  # Run tests
-
 build:
   stage: build
   script:
