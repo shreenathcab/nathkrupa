@@ -8,20 +8,20 @@ stages:
 variables:
   CI_DEBUG_TRACE: "false"  # Enable debug mode for CI debugging if needed
 
-cache:
-  paths:
-    - node_modules/
+# cache:
+#   paths:
+#     - node_modules/
 
-before_script:
-  - npm install  # Install dependencies before running any job
+# before_script:
+#   - npm install  # Install dependencies before running any job
 
-build:
-  stage: build
-  script:
-    - npm run build  # Build the React application
-  artifacts:
-    paths:
-      - build/  # Archive the build directory for deployment
+# build:
+#   stage: build
+#   script:
+#     - npm run build  # Build the React application
+#   artifacts:
+#     paths:
+#       - build/  # Archive the build directory for deployment
 
 deploy:
   stage: deploy
