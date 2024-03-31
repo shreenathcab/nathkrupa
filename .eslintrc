@@ -1,0 +1,38 @@
+{
+    "overrides": [
+      {
+        "files": ["*.js"],
+        "env": {
+          "jest": true
+        },
+        "extends": [
+          "eslint:recommended",
+          "plugin:react/recommended"
+        ],
+        "parserOptions": {
+          "ecmaVersion": 12,
+          "sourceType": "module",
+          "ecmaFeatures": {
+            "jsx": true
+          }
+        },
+        "plugins": [
+          "react"
+        ],
+        "rules": {
+          // Add any specific rules you want to enforce here
+        }
+      },
+      {
+        "files": ["*.js"],
+        "env": {
+          "node": true
+        },
+        "extends": ["eslint:recommended"],
+        "rules": {
+          "no-console": "off"
+        }
+      }
+    ]
+  }
+  

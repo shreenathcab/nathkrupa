@@ -3,6 +3,15 @@
   "name": "shreenathkrupacab",
   "version": "0.1.0",
   "private": true,
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-unused-vars": "error",
+      "jsx-a11y/alt-text": ["error", { "elements": ["img"] }],
+      "jsx-a11y/anchor-is-valid": ["error", { "components": ["Link"], "specialLink": ["to"] }]
+
+    }
+  },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.3",
@@ -28,12 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
