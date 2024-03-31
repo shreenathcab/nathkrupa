@@ -8,8 +8,11 @@
     "rules": {
       "no-unused-vars": "error",
       "jsx-a11y/alt-text": ["error", { "elements": ["img"] }],
-      "jsx-a11y/anchor-is-valid": ["error", { "components": ["Link"], "specialLink": ["to"] }]
-
+      "jsx-a11y/anchor-is-valid": ["error", { "components": ["Link"], "specialLink": ["to"] }],
+      "react/react-in-jsx-scope": "error",
+      "react/no-unknown-property": "error",
+      "react/no-unescaped-entities": "error"
+      
     }
   },
   "dependencies": {
