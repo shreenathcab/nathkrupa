@@ -1,20 +1,8 @@
 {
-  "homepage": "https://shreenathkrupacab.com",
-  "name": "shreenathkrupacab",
+  "homepage": "https://mahalakshamicab.com",
+  "name": "mahalakshamiCab",
   "version": "0.1.0",
   "private": true,
-  "eslintConfig": {
-    "extends": "eslint:recommended",
-    "rules": {
-      "no-unused-vars": "error",
-      "jsx-a11y/alt-text": ["error", { "elements": ["img"] }],
-      "jsx-a11y/anchor-is-valid": ["error", { "components": ["Link"], "specialLink": ["to"] }],
-      "react/react-in-jsx-scope": "error",
-      "react/no-unknown-property": "error",
-      "react/no-unescaped-entities": "error"
-      
-    }
-  },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.3",
@@ -40,7 +28,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
