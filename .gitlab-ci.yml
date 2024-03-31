@@ -1,23 +1,18 @@
-image: node:14  # Choose an appropriate Node.js version
+image: node:14
 
 stages:
   - test
-  - build
   - deploy
 
 variables:
   CI_DEBUG_TRACE: "false"  # Enable debug mode for CI debugging if needed
 
-# cache:
-#   paths:
-#     - node_modules/
-
-# before_script:
-#   - npm install  # Install dependencies before running any job
+# No need to cache or install dependencies since we're not building again
 
 # build:
 #   stage: build
 #   script:
+#     - npm install  # Install dependencies
 #     - npm run build  # Build the React application
 #   artifacts:
 #     paths:
@@ -28,7 +23,6 @@ deploy:
   script:
     - npm install -g gh-pages  # Install gh-pages globally
     - npm run deploy  # Deploy the application to GitHub Pages
-  dependencies:
-    - build
+  dependencies: []  # No dependencies as we're not building
   only:
     - master  # Deploy only when changes are pushed to master branch
