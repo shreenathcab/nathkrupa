@@ -6,7 +6,7 @@ stages:
   - deploy
 
 variables:
-  CI_DEBUG_TRACE: "true"  # Enable debug mode for CI debugging if needed
+  CI_DEBUG_TRACE: "false"  # Enable debug mode for CI debugging if needed
 
 cache:
   paths:
