@@ -12,6 +12,16 @@ import PuneToKolhapur from './Pages/List/PuneToKolhapur';
 import PuneToGoa from './Pages/List/PuneToGoa';
 import PuneToLavasa from './Pages/List/PuneToLavasa';
 import PuneToBhimashankar from './Pages/List/PuneToBhimashankar';
+import PuneToPandharpur from './Pages/List/PuneToPandharpur';
+import PuneToLonavala from './Pages/List/PuneToLonavala';
+import PuneToAkkalkot from './Pages/List/PuneToAkkalkot';
+import PuneToGanpatipule from './Pages/List/PuneToGanpatipule';
+import PuneToAshtavinayak from './Pages/List/PuneToAshtavinayak';
+import PuneToTuljapur from './Pages/List/PuneToTuljapur';
+import PuneToAjanta from './Pages/List/PuneToAjanta';
+import PuneToTirupati from './Pages/List/PuneToTirupati';
+import PuneToHampi from './Pages/List/PuneToHampi';
+import PuneToGujarat from './Pages/List/PuneToGujrat';
 
 function App() {
   return (
@@ -30,6 +40,16 @@ function App() {
           <Route path="/goa" element={<PuneToGoa />} />
           <Route path="/lavasa" element={<PuneToLavasa />} />
           <Route path="/bhimashankar" element={<PuneToBhimashankar />} />
+          <Route path="/pandharpur" element={<PuneToPandharpur />} />
+          <Route path="/lonavala" element={<PuneToLonavala />} />
+          <Route path="/akkalkot" element={<PuneToAkkalkot />} />
+          <Route path="/ganpatipule" element={<PuneToGanpatipule />} />
+          <Route path="/ashtavinayak" element={<PuneToAshtavinayak />} />
+          <Route path="/tuljapur" element={<PuneToTuljapur />} />
+          <Route path="/ajanta" element={<PuneToAjanta />} />
+          <Route path="/tirupati" element={<PuneToTirupati />} />
+          <Route path="/hampi" element={<PuneToHampi />} />
+          <Route path="/gujarat" element={<PuneToGujarat />} />
         {/* </Route> */}
       </Routes>
     </BrowserRouter>

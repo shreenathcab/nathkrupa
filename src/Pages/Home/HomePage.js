@@ -1316,45 +1316,45 @@ const HomePage = () => {
               className="container"
             >
               <ul>
-                <b style={{ color: "red"}}>Services</b>
+                <b style={{ color: "red",fontSize:'30px'}}>Services</b>
                 <br />
                 <br />
-                <li><Link to={"/shirdi"}>🔴 Pune to Shirdi</Link></li>
-                <li><Link to={"mumbai"}>🔴 Pune to Mumbai</Link></li>
-                <li><Link to={"/maha"}>🔴 Pune to Mahabaleshwar</Link></li>
-                <li><Link to={"/nashik"}>🔴 Pune to Nashik</Link></li>
-                <li><Link to={"/trimbakeshwar"}>🔴 Pune to Trimbakeshwar</Link></li>
-                <li><Link to={"/aurangabad"}>🔴 Pune to Aurangabad</Link></li>
-                <li><Link to={"/kolhapur"}>🔴 Pune to Kolhapur</Link></li>
-                <li><Link to={"/goa"}>🔴 Pune to Goa</Link></li>
-                <li><Link to={"/lavasa"}>🔴 Pune to Lavasa</Link></li>
-                <li><Link to={"/bhimashankar"}>🔴 Pune to Bhimashankar</Link></li>
+                <li><Link to={"/shirdi"} style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Shirdi</Link></li>
+                <li><Link to={"mumbai"} style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Mumbai</Link></li>
+                <li><Link to={"/maha"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Mahabaleshwar</Link></li>
+                <li><Link to={"/nashik"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Nashik</Link></li>
+                <li><Link to={"/trimbakeshwar"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Trimbakeshwar</Link></li>
+                <li><Link to={"/aurangabad"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Aurangabad</Link></li>
+                <li><Link to={"/kolhapur"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Kolhapur</Link></li>
+                <li><Link to={"/goa"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Goa</Link></li>
+                <li><Link to={"/lavasa"}style={{ color: "black",  textDecoration: "underline"}}>🔴 Pune to Lavasa</Link></li>
+                <li><Link to={"/bhimashankar"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Bhimashankar</Link></li>
               </ul>
               <ol>
-                <b style={{ color: "red" }}>Services</b>
+                <b style={{ color: "red",fontSize:'30px' }}>Services</b>
                 <br />
                 <br />
 
-                <li>🔴 Pune - Pandharpur</li>
-                <li>🔴 Pune - Goa</li>
-                <li>🔴 Pune - Akkalkot</li>
-                <li>🔴 Pune - Ganpatipule</li>
-                <li>🔴 Pune - Ashtavinayak</li>
-                <li>🔴 Pune - Tuljapur</li>
-                <li>🔴 Pune - Lonavala</li>
-                <li>🔴 Pune - Ajanta</li>
-                <li>🔴 Pune - Kolhapur</li>
-                <li>🔴 Pune To Tirupati Balaji Temple</li>
-                <li>🔴 Mumbai to Tirupati Balaji Temple</li>
+                <li><Link to={"/pandharpur"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune - Pandharpur</Link></li>
+                <li><Link to={"/goa"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune - Goa</Link></li>
+                <li><Link to={"/akkalkot"}style={{ color: "black",  textDecoration: "underline"}}>🔴 Pune - Akkalkot</Link></li>
+                <li><Link to={"/ganpatipule"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune - Ganpatipule</Link></li>
+                <li><Link to={"/ashtavinayak"}style={{ color: "black",  textDecoration: "underline"}}>🔴 Pune - Ashtavinayak</Link></li>
+                <li><Link to={"/tuljapur"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune - Tuljapur</Link></li>
+                <li><Link to={"/lonavala"}style={{ color: "black", textDecoration: "underline"}}>🔴 Pune - Lonavala</Link></li>
+                <li><Link to={"/ajanta"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune - Ajanta</Link></li>
+                <li><Link to={"/kolhapur"}style={{ color: "black", textDecoration: "underline"}}>🔴 Pune - Kolhapur</Link></li>
+                <li><Link to={"/tirupati"}style={{ color: "black", textDecoration: "underline"}}>🔴 Pune To Tirupati Balaji Temple</Link></li>
+                <li><Link to={"/tirupati"}style={{ color: "black", textDecoration: "underline" }}>🔴 Mumbai to Tirupati Balaji Temple</Link></li>
               </ol>
 
               <ol>
-                <b style={{ color: "red" }}>Services</b>
+                <b style={{ color: "red",fontSize:'30px' }}>Services</b>
                 <br />
                 <br />
-                <li>🚗 Pune To Hampi - Karnataka </li>
-                <li>🚗 Pune To Gujarat </li>
-                <li>🚗 Pune To Rajasthan </li>
+                <li><Link to={"/hampi"}style={{ color: "black", textDecoration: "underline" }}>🚗 Pune To Hampi - Karnataka </Link></li>
+                <li><Link to={"/gujarat"}style={{ color: "black", textDecoration: "underline" }}>🚗 Pune To Gujarat</Link></li>
+                <li><Link to={"/rajasthan"}style={{ color: "black", textDecoration: "underline" }}>🚗 Pune To Rajasthan </Link></li>
                   <li>🚗 Taxi hire Pune</li>
                   <li>🚗 Cab hire Pune</li>
                   <li>🚗 Cab on hire in Pune</li>
@@ -1420,7 +1420,7 @@ const HomePage = () => {
                   <ion-icon name="location-outline"></ion-icon>
 
                   <address>
-                  Shreenath Krupa tours and travels Gulmohar City, Kharadi
+                  Shreeshreenath-krupa tours and travels Gulmohar City, Kharadi
 Pune - 411014
                   </address>
                 </li>

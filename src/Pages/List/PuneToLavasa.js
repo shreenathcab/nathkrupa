@@ -17,8 +17,8 @@ const PuneToLavasa = () => {
               </Card>
               <div className="col-md-8" style={{ textAlign: '' }}>
                 <h1>Introduction</h1>
-                <p>Book your Pune to Lavasa round trip cab package at Just Rs. 2500 Including Toll. Nath krupa provides A/c, Non A/c, Economical, Sedan and Tempo Traveller</p>
-                <p>Nath Krupa travels provide the best car service, especially for traveling from Pune to Lavasa by Cab / Taxi and all you need to do is choose us for your travel. Book your tickets now at nathkrupatravels.com.</p>
+                <p>Book your Pune to Lavasa round trip cab package at Just Rs. 2500 Including Toll. shreenath-krupa provides A/c, Non A/c, Economical, Sedan and Tempo Traveller</p>
+                <p>shreenath-krupa travels provide the best car service, especially for traveling from Pune to Lavasa by Cab / Taxi and all you need to do is choose us for your travel. Book your tickets now at shreenath-krupa.com.</p>
                 <p>Don’t hesitate to choose us for cab service as we are the best and we offer affordable and comfortable tour packages for our customers. The travel from Pune to Lavasa will be very much enjoyable and you would be attended by our supporting staff in a leisurely way. We have excellent cab service with good condition for the Pune to Lavasa trip with professionally well off trained drivers. You can choose both AC and Non AC cars of various models. Depending on your convenience and requirement you can choose the apt cab for you.</p>
               </div>
             </div>
@@ -37,11 +37,11 @@ const PuneToLavasa = () => {
             <h1>Location</h1>
             <p>Lavasa is located near Pune in the Western Ghats of Maharashtra, India. It is known for its well-planned infrastructure, lush greenery, and serene ambiance. Experience the tranquility and beauty of Lavasa during your visit.</p>
             <h1>100% guaranteed super service</h1>
-            <p>At Nath Krupa Travels, customer satisfaction is our top priority. We are committed to providing a delightful travel experience to all our customers. With our reliable cab service, you can enjoy a hassle-free journey from Pune to Lavasa.</p>
+            <p>At shreenath-krupa Travels, customer satisfaction is our top priority. We are committed to providing a delightful travel experience to all our customers. With our reliable cab service, you can enjoy a hassle-free journey from Pune to Lavasa.</p>
             <h1>How are we different?</h1>
             <p>Choose from our wide range of luxurious and comfortable cabs at affordable prices. Whether you prefer a sedan, hatchback, or SUV, we have the perfect vehicle to suit your travel needs. Our well-trained drivers ensure a safe and enjoyable ride, allowing you to relax and enjoy the journey.</p>
             <h1>Book us now</h1>
-            <p>Book your Pune to Lavasa cab package today and experience the convenience and comfort of traveling with Nath Krupa Travels. Visit our website nathkrupatravels.com to make an online booking or contact us at +91 9623798119 for inquiries and assistance.</p>
+            <p>Book your Pune to Lavasa cab package today and experience the convenience and comfort of traveling with shreenath-krupa Travels. Visit our website shreenath-krupa.com to make an online booking or contact us at +91 8485800099 for inquiries and assistance.</p>
             <b>Book your Pune to Lavasa Cab Package Now!</b>
             <h1>Pune to Lavasa Cab Service</h1>
             <b>Pune to Lavasa cab service | Pune to Lavasa taxi service | Book Pune to Lavasa cab service | pune to Lavasa taxi drop | pune to Lavasa tour package | pune to Lavasa cab rates | pune to Lavasa cab price | pune to Lavasa cabs | Pune to Lavasa Cab Round Trip</b>
