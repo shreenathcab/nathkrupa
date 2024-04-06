@@ -1324,11 +1324,13 @@ const HomePage = () => {
                 <li><Link to={"/maha"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Mahabaleshwar</Link></li>
                 <li><Link to={"/nashik"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Nashik</Link></li>
                 <li><Link to={"/trimbakeshwar"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Trimbakeshwar</Link></li>
-                <li><Link to={"/aurangabad"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Aurangabad</Link></li>
+                <li><Link to={"/aurangabad"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Sambhaji Nagar(Aurangabad)</Link></li>
                 <li><Link to={"/kolhapur"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Kolhapur</Link></li>
                 <li><Link to={"/goa"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Goa</Link></li>
                 <li><Link to={"/lavasa"}style={{ color: "black",  textDecoration: "underline"}}>🔴 Pune to Lavasa</Link></li>
                 <li><Link to={"/bhimashankar"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Bhimashankar</Link></li>
+                <li><Link to={"/ujjain"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Ujjain</Link></li>
+                <li><Link to={"/omkareshwar"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune to Omkareshwar</Link></li>
               </ul>
               <ol>
                 <b style={{ color: "red",fontSize:'30px' }}>Services</b>
@@ -1346,6 +1348,7 @@ const HomePage = () => {
                 <li><Link to={"/kolhapur"}style={{ color: "black", textDecoration: "underline"}}>🔴 Pune - Kolhapur</Link></li>
                 <li><Link to={"/tirupati"}style={{ color: "black", textDecoration: "underline"}}>🔴 Pune To Tirupati Balaji Temple</Link></li>
                 <li><Link to={"/tirupati"}style={{ color: "black", textDecoration: "underline" }}>🔴 Mumbai to Tirupati Balaji Temple</Link></li>
+                <li><Link to={"/ayodhya"}style={{ color: "black", textDecoration: "underline" }}>🔴 Pune To Ayodhya</Link></li>
               </ol>
 
               <ol>

@@ -22,6 +22,9 @@ import PuneToAjanta from './Pages/List/PuneToAjanta';
 import PuneToTirupati from './Pages/List/PuneToTirupati';
 import PuneToHampi from './Pages/List/PuneToHampi';
 import PuneToGujarat from './Pages/List/PuneToGujrat';
+import Ujjain from './Pages/List/Ujjain';
+import Omkareshwar from './Pages/List/Omkareshwar';
+import Ayodhya from './Pages/List/Ayodhya';
 
 function App() {
   return (
@@ -50,6 +53,9 @@ function App() {
           <Route path="/tirupati" element={<PuneToTirupati />} />
           <Route path="/hampi" element={<PuneToHampi />} />
           <Route path="/gujarat" element={<PuneToGujarat />} />
+          <Route path="/ujjain" element={<Ujjain />} />
+          <Route path="/omkareshwar" element={<Omkareshwar />} />
+          <Route path="/ayodhya" element={< Ayodhya/>} />
         {/* </Route> */}
       </Routes>
     </BrowserRouter>

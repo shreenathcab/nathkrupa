@@ -1,5 +1,6 @@
-import { Card } from '@mui/material';
+import { Button, Card } from '@mui/material';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const PuneToKolhapur = () => {
   return (
@@ -50,7 +51,8 @@ const PuneToKolhapur = () => {
         <div className="footer-agile" style={{ backgroundColor: '#333', color: '#fff', padding: '20px', marginTop: '20px', borderRadius: '5px', fontFamily: "'Bad Script', cursive" }}>
           <div className="container">
             {/* Footer content */}
-            <p>Footer content goes here</p>
+                        <Button sx={{color:'white',fontSize:'30px'}}><Link to="/#book">Book Now</Link></Button>
+
           </div>
         </div> 
       </div>
